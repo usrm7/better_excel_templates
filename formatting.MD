@@ -2,7 +2,7 @@
 
 <h4> How do I get the report going? </h4>
 
-First, you need to state which scripts the file will use.  Most common would probably be 'jql-search.groovy', but could be any other file.     
+First, you need to state which scripts the file will use.  These need to be at the very top, before any other code is run.  Most common would probably be 'jql-search.groovy'.  
 `<mt:execute script="jql-search-tool.groovy"/>`  
 
 <h4>I want to execute a JQL search and return the issues:</h4>
