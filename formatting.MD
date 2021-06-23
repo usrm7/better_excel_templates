@@ -2,16 +2,20 @@
 
 <h4> How do I get the report going? </h4>
 
-As an example, put this in the top of your report, generally the first row, first cell for any scripts that must be executed for the report.  
+First, you need to state which scripts the file will use.  Most common would probably be 'jql-search.groovy', but could be any other file.     
 `<mt:execute script="jql-search-tool.groovy"/>`  
-The script must include the closing tag.
 
-<h4>I want a dynamic worksheet name</h4>  
+<h4>I want to execute a JQL search and return the issues:</h4>
+
+Include this on the row you wish to begin the search, modifying the JQL for your specific case:  
+`<jt:forEach items="${jqlSearch.searchByJql('project=FOOBAR ORDER BY summary')}" var="issue">[${issue.key}] ${issue.summary}</jt:forEach>`
+
+<h4>I want a dynamic worksheet name:</h4>  
 
 Put this type of tag as the worksheet name:  
 `${issues.size()} issues`
 
-<h4>I want my issues to be hyperlinked in the Excel report</h4>
+<h4>I want my issues to be hyperlinked in the Excel report:</h4>
 
 Hyperlinked by the Issue Key:  
 `<jt:hyperlink type="url" address="${requestContext.canonicalBaseUrl}/browse/${issue.key}" value="${issue.key}"/>` 
