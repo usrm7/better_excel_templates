@@ -1,4 +1,4 @@
-<h2>Excel Report Format</h2>
+# Excel Report Format
 
 <h4>I want a dynamic worksheet name</h4>  
 
