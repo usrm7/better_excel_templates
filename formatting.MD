@@ -12,7 +12,7 @@ Include this on the row you wish to begin the search, modifying the JQL for your
 
 <h4>I want a dynamic worksheet name:</h4>  
 
-Put this type of tag as the worksheet name:  
+Put this type of script as the worksheet name:  
 `${issues.size()} issues`
 
 <h4>I want my issues to be hyperlinked in the Excel report:</h4>
