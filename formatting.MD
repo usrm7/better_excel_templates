@@ -17,7 +17,7 @@ Put this type of script as the worksheet name:
 
 <h4>I want my issues to be hyperlinked in the Excel report:</h4>
 
-Hyperlinked by the Issue Key:  
+Hyperlinked by the issue key:  
 `<jt:hyperlink type="url" address="${requestContext.canonicalBaseUrl}/browse/${issue.key}" value="${issue.key}"/>` 
 
 Hyperlinked by some other field (example, issue summary):  
