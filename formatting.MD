@@ -10,6 +10,6 @@ Put this tag as the worksheet name:
 Hyperlinked by the Issue Key:  
 `<jt:hyperlink type="url" address="${requestContext.canonicalBaseUrl}/browse/${issue.key}" value="${issue.key}"/>` 
 
-Hyperlinked by some other field (example: Issue Summary):  
+Hyperlinked by some other field (example, issue summary):  
 `<jt:hyperlink type="url" address="${requestContext.canonicalBaseUrl}/browse/${issue.key}" value="${issue.summary}"/>`
 
