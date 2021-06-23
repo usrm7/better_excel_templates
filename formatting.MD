@@ -1,5 +1,11 @@
 # Excel Report Format
 
+<h4> How do I get the report going? </h4>
+
+As an example, put this in the top of your report, generally the first row, first cell for any scripts that must be executed for the report.  
+`<mt:execute script="jql-search-tool.groovy"/>`  
+The script must include the closing tag.
+
 <h4>I want a dynamic worksheet name</h4>  
 
 Put this type of tag as the worksheet name:  
