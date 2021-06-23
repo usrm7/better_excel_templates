@@ -6,4 +6,5 @@ I think that the hardest part of using these type of tools is finding the docume
 Formatting:  
 See [formatting](formatting.MD) 
 
-Many files are taken from the official documentation at: https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes.
+Many files are taken from the official documentation at:  
+https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes.
