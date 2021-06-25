@@ -1,6 +1,6 @@
 /*
-For Jira 8+
-Source: https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes
+*For Jira 8+
+*Source: https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes
 */
 
 import com.atlassian.jira.component.ComponentAccessor
