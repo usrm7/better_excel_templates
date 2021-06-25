@@ -1,6 +1,16 @@
 /**
  * For Jira 8+
  * Source: https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes
+ * Steps:
+ * 1) Execute in template <mt:execute script="jql-search-tool.groovy"/>
+ * 2) Use either a JQL Query to get issues:
+ *    (change query to suit your needs)
+ *    <jt:forEach items="${jqlSearch.searchByJql('project=FOOBAR ORDER BY summary')}" var="issue">[${issue.key}] ${issue.summary}</jt:forEach>
+ * OR
+ *    Use a saved filter to get issues:
+ *    (change filter id to desired filter)
+ *    <jt:forEach items="${jqlSearch.searchBySavedFilter(13100)}" var="issue">[${issue.key}] ${issue.summary}</jt:forEach>
+ *
  **/
 
 import com.atlassian.jira.component.ComponentAccessor

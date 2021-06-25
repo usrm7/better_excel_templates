@@ -1,6 +1,11 @@
 /**
  * Use to return data from Jira or external databases
  * Source: https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes
+ * Steps:
+ * 1) Execute in template: <mt:execute script="database-tool.groovy"/>
+ * 2) Call the database.executeSql method, iterate over the result, and access database column values
+ *    via properties with the same name. For example, query the Jira user accounts directly from the database:
+ *    | <jt:forEach items="${database.executeSql('com.mysql.jdbc.Driver', 'jdbc:mysql://localhost:3306/jiradb', 'root', '', 'SELECT * FROM cwd_user')}" var="row">${row.display_name} | ${row.user_name}</jt:forEach> |
  **/
 
 import com.atlassian.jira.component.ComponentAccessor
