@@ -6,4 +6,5 @@ See [formatting](formatting.MD).
 
 Templates and scripts:  
 Many files are taken from the [official documentation](https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes).  
+
 You may also want to use [ScriptRunner for Jira](https://marketplace.atlassian.com/apps/6820/scriptrunner-for-jira?hosting=server&tab=overview) to test out Groovy scripts separately from your Better Excel templates.
