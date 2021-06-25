@@ -4,5 +4,5 @@ Some templates to get you started writing custom Jira reports, using the [Better
 Formatting:  
 See [formatting](formatting.MD). 
 
-Many files are taken from the official documentation at:  
-https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes.
+Templates and scripts:
+Many files are taken from the [official documentation](https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes).  You may also want to use ScriptRunner for Jira for testing out Groovy scripts separate from your Better Excel templates.
