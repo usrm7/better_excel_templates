@@ -1,5 +1,5 @@
 # Better Excel and Groovy Quickstart
-Some templates to get you started writing custom Jira reports, using [Better Excel](https://marketplace.atlassian.com/apps/1212652/better-excel-exporter-for-jira?hosting=server&tab=overview) plugin and Jira / Scriptrunner.
+Some templates to get you started writing custom Jira reports, using the [Better Excel](https://marketplace.atlassian.com/apps/1212652/better-excel-exporter-for-jira?hosting=server&tab=overview) plugin. 
 
 Formatting:  
 See [formatting](formatting.MD). 
