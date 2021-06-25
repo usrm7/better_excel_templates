@@ -1,6 +1,6 @@
 /*
-Use to return data from Jira or external databases
-Source: https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes
+*Use to return data from Jira or external databases
+*Source: https://www.midori-global.com/products/better-excel-exporter-for-jira/server/documentation/recipes
 */
 
 import com.atlassian.jira.component.ComponentAccessor
